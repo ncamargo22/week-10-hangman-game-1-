@@ -15,9 +15,15 @@ def check_3Digits(list1):
 ########################################################################################################################
 # Dynamic Functions Practice #1
 # Create a function (all_positives) that returns True if all the values in a list are positive, and False if at least one of the values is negative. Create a list named numbers with positive and negative values.
-
 # Don't call the function, you just need to define it.
-
+def all_positives(list2):
+  for n in list2:
+    if n in range (1,999999):
+      return True
+    else:
+      return False
+      
+  
 
 ########################################################################################################################
 # Dynamic Functions Practice #2
